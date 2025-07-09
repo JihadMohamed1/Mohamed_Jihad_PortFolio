@@ -35,11 +35,7 @@ export const Navbar = () => {
           className="text-xl font-bold text-primary flex items-center"
           href="#hero"
         >
-                <img
-                src="person_13374988.png"
-                 alt="User Icon"
-                 className="w-5 h-5"
-             /> <Code2/>
+       <Code2/>
           <span className="relative z-10"> 
             <span className="text-glow text-foreground"> 
               Mohamed  </span>{" "}

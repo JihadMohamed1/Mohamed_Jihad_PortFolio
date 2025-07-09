@@ -1,7 +1,7 @@
 // src/components/Chatbot.jsx
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Send } from "lucide-react";
+import { Bot, Send } from "lucide-react";
 
 export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,11 +58,7 @@ export default function Chatbot() {
         >
           <div className="flex justify-between items-center p-3 bg-white/80 dark:bg-gray-800/70 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700">
             <div className="flex items-center space-x-2">
-              <img
-                src="person_13374988.png"
-                alt="User Icon"
-                className="w-5 h-5 rounded-full"
-              />
+             <Bot />
               <h3 className="text-sm font-semibold text-gray-800 dark:text-white">
                 JihadGPT
               </h3>
@@ -140,11 +136,7 @@ export default function Chatbot() {
             onClick={() => setIsOpen(true)}
             className="bg-gradient-to-br from-blue-500 to-purple-600 text-white rounded-full p-4 shadow-lg relative"
           >
-            <img
-              src="person_13374988.png"
-              alt="User Icon"
-              className="w-5 h-5"
-            />
+           <Bot />
             <span className="absolute top-0 right-0 w-2 h-2 bg-blue-300 rounded-full animate-ping opacity-75" />
             <span className="absolute top-0 right-0 w-2 h-2 bg-blue-400 rounded-full" />
           </motion.button>
