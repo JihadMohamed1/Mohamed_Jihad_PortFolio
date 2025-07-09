@@ -36,7 +36,7 @@ export const Navbar = () => {
           href="#hero"
         >
                 <img
-                src="/person_13374988.png"
+                src="person_13374988.png"
                  alt="User Icon"
                  className="w-5 h-5"
              /> <Code2/>

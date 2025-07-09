@@ -59,7 +59,7 @@ export default function Chatbot() {
           <div className="flex justify-between items-center p-3 bg-white/80 dark:bg-gray-800/70 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700">
             <div className="flex items-center space-x-2">
               <img
-                src="/person_13374988.png"
+                src="person_13374988.png"
                 alt="User Icon"
                 className="w-5 h-5 rounded-full"
               />
@@ -141,7 +141,7 @@ export default function Chatbot() {
             className="bg-gradient-to-br from-blue-500 to-purple-600 text-white rounded-full p-4 shadow-lg relative"
           >
             <img
-              src="/person_13374988.png"
+              src="person_13374988.png"
               alt="User Icon"
               className="w-5 h-5"
             />
